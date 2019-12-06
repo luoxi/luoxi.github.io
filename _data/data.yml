@@ -3,187 +3,109 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Luo Xi
+  tagline: Software Engineer
+  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+  # Sidebar links
+  email:
+  phone:
+  website: #do not add http://
+  linkedin: luoxi-in
+  github: luoxi
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-      - idiom: English
-        level: Native
+  languages:
+    - idiom: Chinese
+      level: Native
 
-      - idiom: French
-        level: Professional
+    - idiom: Japanese
+      level: Bilingual proficiency
 
-      - idiom: Spanish
-        level: Professional
-
-    interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+    - idiom: English
+      level: Limited working proficiency
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+  title: Career Profile
+  summary: |
+    10+ years as a software engineer. Building systems with high availability and scalability in various sizes of companies. 
+    Experienced in leading teams through challenging times such as rapid user growth and scaling, acquisition, and IPO, and adapting foreign companies in Japan.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+  - degree: BSc in Computer Science
+    university: Central South Forestry University
+    time: 2001 - 2005
+    details:
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+  - role: Technical Lead
+    time: 2018 - Present
+    company: JMDC
+    details: |
+      Led, recruited and trained the engineering team in transitioning through acquisition and IPO of JMDC with the fast-growing user base
+        - Pioneered the B2C sector of healthcare data, and as a founding member of Health Data Platform, successfully designed and led the development team to deliver `pepup.life` which contributed greatly to the acquisition of Health Data Platform and the IPO of JMDC
+        - Support and update the system technically and strategically to accommodate rapidly growing user base (currently at 450K~ active users and 1M~ registered users)
+        - Define and re-prioritize scope of projects with new resources provided by the parent company; bridge the culture and communication style with the development team and the parent company; ensure a smooth transition
+        - Shifted the recruiting process to the development team from the HR organization; Utilized LinkedIn headhunters to attract top web engineers
+  - role: Lead Engineer
+    time: 2015 - 2018
+    company: Health Data Platform (a subsidiary of JMDC）
+    details: |
+      Led a start-up branch of JMDC to explore business opportunities in the B2C sector.
+        - Joined as one of four founding members; designed and developed `pepup.life` from scratch; platform continues to grow today, achieved ¥200M/yr annualized revenue prior to the acquisition
+        - Designed projects with a nimble approach to take advantage of quick learnings and implement changes, partnered with international teams and external agencies
+        - Architected and implemented high performing service `pepup.life` using Ruby on Rails on AWS. Developed CI/CD roadmap and implemented it to the service.
+        - Worked with SRE team administration on-premises and AWS services: Route 53, EC2, ECS, S3, RDS
+  - role: Senior Engineer / Engineering Manager
+    time: 2012 - 2015
+    company: GREE
+    details: |
+      Rejuvenated a popular game(`釣り☆スタ`) with creative and interactive in-game events in one of the largest social media and social game company in Japan.
+        - Led event planning, reviewing and implementing cycle; designed game events, collected and analyzed event participation data, gathered insights from user behavior and improved next event design cycle
+        - Refreshed the long-lived game with new in-game events and successfully maintained ¥100M/day event revenue
+        - Managed a team of 10~15 engineers as the Tech Lead, assigned and prioritized projects to team members with a developmental intention; delivered goals in-game launches even with high turnover; guided team on technical aspects
+        - Incorporated various groups, such as Customer Support and Quality Assurance as part of the development team and got them involved early in game design and game analytics; increased productivity and quality with cross-functional collaboration
+  - role: Senior Backend Server Engineer
+    time: 2012 - 2012
+    company: NUBEE
+    details: |
+      - Designed, developed and deployed API-based back-end system for social game product using LAMP on AWS
+      - Helped to transition the company from Singapore to Japan
+  - role: Smartphone Application Engineer / Senior Backend Server Engineer
+    time: 2011 - 2012
+    company: CYBIRD
+    details: |
+      - Published three mobile apps from native design and development in LAMP, AWS, iOS, Android
+      - Pioneered with Live2D technology to create 3D avatars with a few 2D images, received wide positive user reviews in a short period
+  - role: Game Development Engineer
+    time: 2009 - 2011
+    company: AMATA
+    details: |
+      - Pioneered in Social Game Development (LAMP, AWS) in the Japanese market for major platforms such as Mixi, Dena, GREE; experimented KVS system during its early developing stage
+      - Created a game-specific framework, developed three cross-platform social games with it.
+  - role: Web Application Developer/ Infra Engineer
+    time: 2007 - 2009
+    company: COMTEC
+    details: |
+      - Maintained and monitored operation infrastructure for websites
+      - Worked as an associate team leader of 6~8 people
+  - role: Software Engineer
+    time: 2005 - 2007
+    company: ChinaSoft
+    details: |
+      - Maintained an advertisement system adopted by a variety of digital TV stations in Japan
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
